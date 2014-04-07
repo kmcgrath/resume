@@ -5626,6 +5626,7 @@ body {
     *zoom: 1;
     position: fixed;
     top: 0px;
+    left: 0px;
     background: #fff;
     padding-top: 2em;
     width: 100%; }
@@ -5633,7 +5634,15 @@ body {
       content: " ";
       display: table; }
     .nav-links:after {
-      clear: both; } }
+      clear: both; }
+    .nav-links dl {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+      width: 83.33333%;
+      float: left;
+      margin-left: auto;
+      margin-right: auto;
+      float: none; } }
 @media only print {
   #footer {
     display: none; }
