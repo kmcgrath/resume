@@ -5647,7 +5647,10 @@ body {
     display: none; }
 
   .nav-links {
-    display: none; } }
+    display: none; }
+
+  a[href^="mailto:"]:after {
+    content: ""; } }
 h2 {
   border-bottom: thin solid black; }
 
